@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "wqn-artifact-removal"
+version = "1.0.0"
+description = "Implementation and benchmarking of the WQN artifact removal method."
+authors = ["Matteo Dora <matteo.dora@ieee.org>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.10"
+numpy = ">=1.20,<1.21"
+scipy = "^1.7.3"
+PyWavelets = "^1.2.0"
+matplotlib = "^3.5.0"
+Transplant = "^0.8.11"
+tqdm = "^4.62.3"
+pandas = ">=1.3,<1.3.4"
+h5py = "^3.6.0"
+EMD-signal = "^1.2.0"
+wfdb = "^3.4.1"
+pyarrow = "^6.0.1"
+
+[tool.poetry.dev-dependencies]
+nbformat = "^5.1.3"
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

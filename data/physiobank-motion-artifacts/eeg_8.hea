@@ -1,0 +1,11 @@
+eeg_8 10 2048 983153
+eeg_8.dat 16 1000/mV 16 0 -3874 4128 0 EEG1
+eeg_8.dat 16 1000/mV 16 0 305 -26787 0 EEG2
+eeg_8.dat 16 1000/nd 16 0 650 7914 0 EEG_tr
+eeg_8.dat 16 1000/nd 16 0 -6006 18510 0 ACC_x1
+eeg_8.dat 16 1000/nd 16 0 -1270 1040 0 ACC_y1
+eeg_8.dat 16 1000/nd 16 0 -3174 -9129 0 ACC_z1
+eeg_8.dat 16 1000/nd 16 0 -342 28640 0 ACC_x2
+eeg_8.dat 16 1000/nd 16 0 7031 6021 0 ACC_y2
+eeg_8.dat 16 1000/nd 16 0 6738 12024 0 ACC_z2
+eeg_8.dat 16 1000/nd 16 0 673 -7942 0 ACC_tr
