@@ -6,7 +6,6 @@ import transplant
 import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
-import matplotlib.pyplot as plt
 
 from methods import (
     WaveletThresholding,
