@@ -17,6 +17,7 @@ h5py = "^3.6.0"
 EMD-signal = "^1.2.0"
 wfdb = "^3.4.1"
 pyarrow = "^6.0.1"
+scikit-learn = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 nbformat = "^5.1.3"
