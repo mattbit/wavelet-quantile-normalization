@@ -1,3 +1,4 @@
+"""Preprocess and prepare the datasets used for testing."""
 import wfdb
 import h5py
 import scipy.io
@@ -231,3 +232,5 @@ for snr in [-0.5, -1, -5, -10, -20]:
             record['artifacts'] = artifacts
             record.attrs['freq'] = fs
             record.attrs['filtered'] = ''
+
+# %%

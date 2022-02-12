@@ -38,7 +38,7 @@ methods = {
     "EMD-CCA": EMDCCA(),
 }
 
-# %%
+# %% Apply artifact removal methods on all datasets.
 
 for method_name, method in methods.items():
     for path in dataset_paths:
@@ -65,7 +65,7 @@ for method_name, method in methods.items():
                     restored = method.run(signal, artifacts, freq, reference)
                     output[record] = restored
 
-# %%
+# %% Compute metrics.
 
 for method_name, method in methods.items():
     _metrics = []
@@ -139,3 +139,5 @@ agg = (
 )
 agg = agg.reindex(datasets_, level=0).reindex(methods_, level=1)
 print(agg.round(2))
+
+# %%
