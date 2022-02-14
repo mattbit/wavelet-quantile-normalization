@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4783450.svg)](https://doi.org/10.5281/zenodo.4783450)
+
 # Wavelet quantile normalization for EEG artifact removal
 
 This repository contains the implementation of the WQN (wavelet quantile normalization) method presented in:
