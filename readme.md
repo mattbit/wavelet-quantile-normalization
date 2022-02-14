@@ -11,7 +11,14 @@ The code allow to reproduce the benchmarks reported in the article:
 - `10_run_artifact_removal.py` contains the main code which applies various artifact removal algorithms and computes the metrics (see Table I in the article);
 - `11_run_artifact_removal_vary_snr.py` computes the benchmarks for varying SNR (Figure 3 in the article)
 - `20_computation_cost.py` was used to compute the performances of the algorithms (Table II in the article).
-- `methods.py` contains the implementations of the various algorithms, including WQN.
+- `methods.py` contains the implementations of the 
+various algorithms, including WQN.
+
+The datasets are publicly available as referenced in the
+article:
+- [Physiobank motion artifacts](https://physionet.org/content/motion-artifact/1.0.0/)
+- [EEG Denoise-Net](https://github.com/ncclabsustech/EEGdenoiseNet)
+- [Semi-simulated EOG](https://data.mendeley.com/datasets/wb6yvr725d/4)
 
 Dependencies are managed with [poetry](https://python-poetry.org/) (see `pyproject.toml`).
 
