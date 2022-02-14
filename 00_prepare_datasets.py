@@ -106,7 +106,6 @@ with h5py.File('data/02_semisimulated_eog.h5', 'w') as f:
         end = 2 * keep_len
 
         window = ss.general_gaussian(keep_len, 6, keep_len // 2)
-        # window = ss.tukey(keep_len, 0.1)
 
         artifact[:, :start] = 0
         artifact[:, start:end] *= window

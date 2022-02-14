@@ -138,6 +138,6 @@ agg = (
     .loc[:, ("ΔSNR", "NMSE", "ΔR", "ΔCoh_normalized")]
 )
 agg = agg.reindex(datasets_, level=0).reindex(methods_, level=1)
+
 print(agg.round(2))
 
-# %%

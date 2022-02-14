@@ -1,5 +1,5 @@
 """
-Run artifact removal methods and collect metrics (SNR, R, …).
+Run artifact removal for various SNRs.
 """
 import h5py
 import transplant

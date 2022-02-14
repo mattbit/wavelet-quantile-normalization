@@ -94,8 +94,8 @@ class WaveletQuantileNormalization(SingleChannelDenoiser):
     technique is protected by the patent “Computer-implemented method
     for assisting a general anesthesia of a subject” (File No. EP21306053).
     While you are free to experiment with it for purely experimental use,
-    any other purpuse (for example, part of industrial activity) may
-    constitute patent infringement. If you have doubts, please contact to
+    any other purpose (for example, part of industrial activity) may
+    constitute patent infringement. If you have doubts, please contact
     David Holcman (david.holcman@ens.psl.eu).
     """
 

@@ -46,14 +46,15 @@ artifacts = [(15 * freq, 30 * freq)]
 # Calculate time for Python to Matlab communication,
 # so that we can subtract it from the benchmark.
 
-# matlab_lag = max(
-#     timeit.repeat(
-#         "matlab.surrogateNOOP(signal)",
-#         globals={"signal": signal, "matlab": matlab},
-#         repeat=10,
-#         number=1,
-#     )
-# )
+matlab_lag = max(
+    timeit.repeat(
+        "matlab.surrogateNOOP(signal)",
+        globals={"signal": signal, "matlab": matlab},
+        repeat=10,
+        number=1,
+    )
+)
+print(f"MATLAB noop lag: {matlab_lag}")
 
 # %%
 
