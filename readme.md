@@ -13,6 +13,8 @@ The code allow to reproduce the benchmarks reported in the article:
 - `20_computation_cost.py` was used to compute the performances of the algorithms (Table II in the article).
 - `methods.py` contains the implementations of the various algorithms, including WQN.
 
+Dependencies are managed with [poetry](https://python-poetry.org/) (see `pyproject.toml`).
+
 If you have troubles running the code, you have doubts or need any help, don't hesitate to reach out at matteo.dora@ieee.org!
 
 
